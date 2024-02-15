@@ -7,7 +7,7 @@ async function main() {
   await SaveEther.waitForDeployment();
 
 
-  console.log('SaveEther deployed to:', );
+  console.log("SaveEther deployed to:", deployedSaveEther.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
